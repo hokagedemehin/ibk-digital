@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cards",
+  "info": {
+    "singularName": "card",
+    "pluralName": "cards",
+    "displayName": "card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "receipient": {
+      "type": "string"
+    },
+    "delivered": {
+      "type": "boolean"
+    }
+  }
+}
